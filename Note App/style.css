@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cfcfcf, #ff0000);
+  color: rgb(255, 255, 255);
+  padding-top: 4%;
+  padding-left: 10%;
+  text-align: center;
+  display: inherit;
+}
+.container h1 {
+  align-items: center;
+  font-size: 90px;
+  font-weight: 600;
+  text-align: center;
+  display: inherit;
+}
+.container h1 img {
+  width: 60px;
+  text-align: center;
+}
+.container button img {
+  width: 25px;
+  margin-right: 8px;
+}
+.container button {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#cfcfcf, #ff0000);
+  color: black;
+  font-size: medium;
+  outline: 0;
+  border: 0;
+  border-radius: 40px;
+  padding: 15px 25px;
+  margin: 30px 0 20px;
+  cursor: pointer;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(5);
+  }
+  40% {
+    transform: translateY(-20px); /* Adjust bounce height as needed */
+  }
+  60% {
+    transform: translateY(0px); /* Adjust bounce height as needed */
+  }
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: rgb(255, 255, 255);
+  color: #000000;
+  padding: 20px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+  animation: bounce 1s ease-in-out;
+}
+.input-box img {
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+iframe {
+  opacity: 50%;
+}
